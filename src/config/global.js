@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Catálogo componentes web RED SENA SANTANDER',
+    Name: 'Catálogo componentes web',
     Description:
       'Catálogo de componentes web para el desarrollo de recursos educativos digitales. Contiene componentes para el desarrollo de recursos educativos digitales de manera fácil y rápida.',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
