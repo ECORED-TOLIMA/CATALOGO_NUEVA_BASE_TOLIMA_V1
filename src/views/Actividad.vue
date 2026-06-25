@@ -2,8 +2,7 @@
   .curso-main-container.pb-3
     BannerInterno(icono="far fa-question-circle" titulo="Actividad didáctica")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
-      // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
+  
       #Actividad                
       <ActividadController :cuestionario="cuestionario"/>
   
@@ -23,7 +22,7 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
-      barajarPreguntas: true,
+      barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
